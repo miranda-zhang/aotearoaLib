@@ -18,7 +18,8 @@ import de.eorg.aotearoa.lib.model.ahp.values.EvaluationResult;
 public class AnalyticHierachyProcessTest {
 
 	@Test
-	public void testEvaluate(Matrix criteriaMatrix) {
+	public void testEvaluate() {
+		Matrix criteriaMatrix = null; 
 
 		Decision decision = new Decision();
 		Goal goal = new Goal();
